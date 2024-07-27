@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
 
-
-
+.playwrite-be-vlg-newfont {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -18,7 +23,29 @@
     border-radius: 46px;
     padding: 12px 12px;
     border: none;
-  
+    width: 92px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    
+   
+}
+/* header */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17)100%,
+    rgba(119, 119, 119, 0) 50%);
+    margin: 0 auto; 
+    left: 0;
+    top: 0; 
+}
+
+.bg-light{
+    background: black;
 }
 
 /* navbar style */
@@ -26,34 +53,149 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 50px 200px; 
+    
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
+    width: 465px;
+    height: 46px;
+    justify-content: center;
 }
+.box-size{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 6px;
+    margin: 0px 10px;
+    position: static;
+    width: 420px;
+    height: 46px;
+}
+
 .dark-2{
     color: rgb(255, 255, 255);
 }
 
 .fit{
- color: rgb(230, 83, 60);
- font-weight: 800;
- font-size: 2.25rem;
-}
-
-.nav-item{
-    list-style: none;
-    padding: 0px;
-    justify-content: center;
-    text-align: center;
+    color: rgb(230, 83, 60);
+     font-weight: 800;
+     font-size: 2.25rem;
+     font-style: italic;
+     width: 132px;
+     height: 43px;
+     line-height: 120%;
+     letter-spacing: 0%;
+     text-align: left;
 }
 nav ul li{
     list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+   
+    
 }
 nav ul a{
     text-decoration: none;
     font-size: 1.13rem;
     font-weight: 400;
-    margin-left: 47px;
+    margin-left: 30px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+.header,.banner{
+    max-width: 1440px;
+    max-height: 745px;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+   
+}
+.first-img{
+    max-width: 349px;
+    max-height: 580px;
+    left: 877px;
+    top: 135px;
+    right: 214px;
+    margin-bottom: 20px;
+    background: url(88);
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 190px;
+    margin-bottom: 230px;
+     
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 4.87rem;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 28px 0px;
+    line-height: 120%;  
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px;
+    margin: 28px 0px;
+}
+.first-btn{
+    background-color:rgb(230, 83, 60) ;
+    color: rgb(255, 255, 255);
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 42px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+    margin: 0px 14px;
+}
+.second-btn{
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+    margin: 0px 14px;
+    background-color:rgba(119, 119, 119, 0);
+    color:  rgb(255, 255, 255);
+   
+}
+/* main-section-start */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.paragraph{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
