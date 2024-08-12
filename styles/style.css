@@ -162,6 +162,13 @@ nav ul a{
     padding: 0px;
     margin: 28px 0px;
 }
+.banner-contant{
+    width: 599.05px;
+    height: 440px;
+    left: 190px;
+    top: 199px;
+
+}
 .first-btn{
     background-color:rgb(230, 83, 60) ;
     color: rgb(255, 255, 255);
@@ -574,8 +581,3 @@ background: rgba(0, 0, 0, 0.2),url(image);
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-
-
-
-
-
