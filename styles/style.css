@@ -85,7 +85,7 @@ header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17)100%,
     rgba(119, 119, 119, 0) 100%);
     max-width: 1440px;
-    max-height: 750px;
+     max-height: 750px;
 
 }
 body{
@@ -102,10 +102,11 @@ font-weight: 900;
   display: flex;
   justify-content: space-between;
   margin: 50px 130px;
-
+  
   }
   .banner-contant{
     max-width: 580px;
+    
   }
   
   .banner-title{
@@ -114,7 +115,7 @@ font-weight: 900;
     color: rgb(255, 255, 255);
     padding: 0px;
     margin: 28px 0px;
-    line-height: 120%;  
+    
   }
   .banner-description{
     color: rgba(255, 255, 255, 0.5);
@@ -152,6 +153,10 @@ font-weight: 900;
    
   }
   /* badge-related-work */
+  
+  .profile-pic{
+   width: 349px;
+  }
   #badge{
     position: absolute;
   width: 150px;
@@ -230,10 +235,63 @@ font-weight: 900;
         margin-right: 30px;
         margin-top: 30px;
     }
+    header{
+      display: flex;
+      flex-direction: column;
+    }
+    .two-btn{
+      display: flex;
+      flex-direction: row;
+      width: 30px;
+      gap: 50px;
+    }
     .banner{
       flex-direction: column;
-      margin: 20px;
+      margin: 30px;
+     font-size: 3rem;
+      
+      
     }
+    button{
+      display: flex;
+    }
+    .second-btn{
+     width: 500px;
+     height: 50px;
+     align-items: center;
+     text-align: center;
+    }
+    .third-btn{
+      width: 300px;
+      height: 50px;
+      right: 200px;
+    }
+    .profile-pic{
+      width: 100%;
+    }
+    .banner-contant{
+      flex-direction: row;
+    }
+    .banner-title{
+    
+    }
+    #second-badge{
+      left: 30px;
+      top: 1200px;
+    }
+    #badge{
+      left: 220px;
+      top: 1000px;
+    }
+    #badge .mobile{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      gap: 5px;
+      
+    }
+    
+   
     
     
 }
