@@ -14,7 +14,8 @@
     font-style: normal;
   }
 *{
-    margin: 0;
+    margin: 0;  
+    scroll-behavior: smooth;
 }
 .white{
     color: rgb(255, 255, 255);
@@ -25,7 +26,7 @@
 /* nav-bar-related-work */
 .container{
     width: 100%;
-    margin: 30px auto; 
+    margin: auto; 
      
 }
 .nav-bar{
@@ -51,41 +52,37 @@ margin-top: 70px;
 font-size: 1.12rem;
 font-weight: 400;
 padding: 3px 3px;
-}
+} 
+
 .logo{
-    width: 132px;
-height: 43px;
-margin-left: 120px;
-font-style: italic;
-color: rgb(230, 83, 60);
-font-size: 2.25rem;
-font-weight: 800;
-margin-top: 70px;
+  margin-left: 120px;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-top: 70px;
 }
 .btn-primary{
-    width: 92px;
-height: 35px;
-border-radius: 46px;
-
-background: rgb(230, 83, 60);
-border: none;
-text-align: center;
-color:  rgb(255, 255, 255);
-font-size: 1.12rem;
-font-weight: 400;
+  width: 92px;
+  height: 35px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  border: none;
+  text-align: center;
+  color:  rgb(255, 255, 255);
+  font-size: 1.12rem;
+  font-weight: 400;
  
 }
 .hamburger{
-    color: rgb(255, 255, 255);
-    display: none;
-    font-size: 2rem;
+  color: rgb(255, 255, 255);
+  display: none;
+  font-size: 2rem;
 }
 header{
-  
-    background: linear-gradient(180.00deg, rgb(17, 17, 17)100%,
-    rgba(119, 119, 119, 0) 100%);
-    max-width: 1440px;
-     max-height: 750px;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  max-width: 1440px;
+  max-height: 750px;
 
 }
 body{
@@ -94,14 +91,14 @@ body{
 /* banner-styles */
  .banner-greetings{
     color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 8.78rem;
-font-weight: 900;
+    font-family: Inter;
+    font-size: 8.78rem;
+   font-weight: 900;
  }
  .banner{
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+     margin: 50px 130px;
   
   }
   .banner-contant{
@@ -156,47 +153,49 @@ font-weight: 900;
   
   .profile-pic{
    width: 349px;
-  }
+  }   
+
   #badge{
-    position: absolute;
-  width: 150px;
-  height: 98px;
-  left: 1100px;
-  top: 350px;
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.1);
-  
+    /* position: absolute; */
+    width: 198px;
+    height: 98px;
+    /* left: 1100px;
+    top: 350px; */  
+    margin: 120px 20px 30px 1050px;  
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(20px);
   }
   .number{
    font-weight: 800;
-   font-size: 2.5rem;
+   font-size: 40px;
    height: 40px;
-   color: rgb(255, 255, 255);
+   color: rgb(255, 255, 255); 
+   margin-left: -50px ;
   }
   .free-vdo{
     font-weight: 400;
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.65);
+    color: rgba(255, 255, 255, 0.65); 
+    margin-right: 40px;
   }
   #second-badge{
    
-   position: absolute;
-  width: 170px;
-  height: 96px;
-  left: 780px;
-  top: 630px;
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  
-  backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.1);
+    /* position: absolute; */
+    width: 176px;
+    height: 96px;
+    margin: 400px 20px 30px 750px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
   
   }
   .ellipse{
-    position: absolute;
+    /* position: absolute; */
   width: 30px;
   height: 30px;
   left: 30px;
@@ -206,8 +205,8 @@ font-weight: 900;
   background-color: rgb(230, 83, 60);
   }
   .number2{
-    color: rgb(250, 250, 249);
-    font-size: 1.5rem;
+  color: rgb(250, 250, 249);
+  font-size: 1.5rem;
   font-weight: 900;
   line-height: 24px;
   letter-spacing: 0.3px;
@@ -217,9 +216,10 @@ font-weight: 900;
     font-weight: 400;
     font-size: 1rem;
     line-height: 24px;
-  letter-spacing: 0.5px;
-  text-align: left;
-  color: rgba(239, 237, 232, 0.65);
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(239, 237, 232, 0.65); 
+    margin-left: 38px;
   }
   main{
     max-width: 1440px;
@@ -240,11 +240,6 @@ font-weight: 900;
    
   }
   .second-section{
-    position: absolute;
-  max-width: 1044px;
-  max-height: 452px;
-  left: 198px;
-  top: 815px;
   margin: 0 auto;
   padding: 0px;
   }
@@ -303,38 +298,31 @@ font-weight: 900;
   padding: 0px;
   
   }
-  /* third-srction-related-work */
+  /* third-section-related-work */
   .third-section{
-    position: static;
-    width: 1020px;
-    height: 371px;
-    margin-top: 680px;
-    margin-left: 90px;
-    margin-right: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    padding: 0px;
-   
-    background: rgb(185, 185, 185);
-    border-radius: 18px;
-   
-  
-  background: rgb(34, 34, 34);
+  width: 1300px;
+  height: 371px;  
+  margin-top: 100px;
+  margin-left: 90px;
+  margin-right: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 18px;  
+  background: rgb(34, 34, 34);  
+
   }
   .extra-run{
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
   font-weight: 900;
   margin: 14px 0px;
-  
-  
    
   }
   .belive-fitness{
     color: rgba(255, 255, 255, 0.5);
-    position: static;
+    /* position: static; */
     width: 400px;
   height: 150px;
   margin: 0 auto;
@@ -342,7 +330,7 @@ font-weight: 900;
    
   }
   .join-btn{
-    position: static;
+    /* position: static; */
   width: 180px;
   height: 60px;
   border-radius: 42px;
@@ -369,7 +357,8 @@ font-weight: 900;
   .card-img{
     width: 350px;
     height: 310px;
-    margin-left: 40px;    
+    margin-left: 300px;      
+
   }
   .card-img img{
     width: 350px;
@@ -392,35 +381,32 @@ font-weight: 900;
 .meet-team{
   color: rgb(255, 255, 255);
   font-size: 3rem;
-font-weight: 900;
-margin-right: 270px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+  font-weight: 900;
+  margin-right: 270px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   
 
 }
 
 .everyone{
   color: rgba(255, 255, 255, 0.5);
-  
   font-size: 1rem;
-font-weight: 400;
-margin-left: 300px;
+  font-weight: 400;
+  margin-left: 410px;
 }
 /* start-table-section */
 .table-section{
-  position: static;
-max-width: 1400px;
-height: 487px;
-background: rgb(34, 34, 34);
-display: flex;
-align-items: center;
-justify-content: center;
-margin-left: 30px;
-margin-top: 70px;
-padding: 0px;
+  max-width: 1500px;
+  height: 100%;
+  background: rgb(34, 34, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 0px;
 }
 .head-chart{
   font-weight: 900;
@@ -442,11 +428,11 @@ td ,th{
 }
 table{
   border-collapse: collapse;
-position: absolute;
-width: 310px;
-height: 216px;
-left: 150px;
-
+  position: absolute;
+  width: 310px;
+  height: 216px;  
+  left: 189px;  
+  margin-left: -50px;
 }
 .all-td{
   font-size: 1rem;
@@ -521,7 +507,9 @@ height: 48px;
 
 font-size: 1.75rem;
 font-weight: 900;
-text-align: left;
+text-align: left;   
+margin-left: 5px;
+padding: 20px 0px;
 }
 .calculate-btn{
 width: 224px;
@@ -554,10 +542,7 @@ padding: 0px;
   position: static;
   width: 1020px;
   height: 580px;
-  margin-top: 58px;
-  margin-left: 100px;
-  margin-right: 250px;
- 
+  margin: 10px 20px 30px 210px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -577,16 +562,16 @@ margin-left: 270px;
 margin-top: 100px;
 }
 .our-team{
-  margin-right: 200px;
   text-align: center;
-  margin: 14px 0px;
   font-size: 3rem;
-font-weight: 900;
+  font-weight: 900; 
+  margin-left: 300px;
 }
-.ever{
-  margin-left: 20px;
+.ever{  
+  width: 100%;
+  margin-left: 130px;
   font-size: 1rem;
-font-weight: 400;
+  font-weight: 400;
 }
 /* img-section-start */
 .six-img{
@@ -626,13 +611,12 @@ filter: brightness(0.9);
 /* footer-related-work */
 .last-section{
   position: static;
-  max-width: 1400px;
+  max-width: 1500px;
   height: 487px;
   background: rgb(34, 34, 34);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
   margin-top: 70px;
   padding: 0px;
 }
@@ -680,8 +664,9 @@ margin: 39px 0px;
 }
 .serve{
   color: rgba(255, 255, 255, 0.5);
-font-size: 1.20rem;
-font-weight: 400;
+  font-size: 1.20rem;
+  font-weight: 400; 
+  padding: 10px;
 }
 .third-sector{
   width: 181px;
@@ -690,10 +675,10 @@ font-weight: 400;
 #horaizontal-line{
   position: absolute;
   width: 1000px;
-height: 0;
-margin-top: 300px;
-text-align: center;
-border: 2px solid rgba(255, 255, 255, 0.1);
+  height: 0;
+  margin-top: 300px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 .finish{
   position: absolute;
@@ -709,7 +694,7 @@ align-items: center;
 justify-content: center;
 }
 /* responsive-part-start */
-@media screen and (max-width:576px){
+/* @media screen and (max-width:576px){
   .border-box,.four-items{
     display: none;
   }
@@ -734,7 +719,7 @@ justify-content: center;
   .contant-title{
     flex-direction: column;
   }
-}
+} */
 
 /* responsive-start */
 @media screen and (max-width:576px){
@@ -756,36 +741,40 @@ justify-content: center;
     }
     .two-btn{
       display: flex;
-      flex-direction: row;
-      width: 30px;
       gap: 50px;
     }
     .banner{
       flex-direction: column;
       margin: 30px;
      font-size: 3rem;
-      
-      
+    } 
+.second-section{   
+    display: grid;
+    } 
+
+    .full-excersize{  
+      display: grid;  
+      grid-template-columns: repeat(1,1fr);
     }
+
+  .profile-pic{ 
+    width: 100%;
+  }
     button{
       display: flex;
     }
     .second-btn{
-     width: 500px;
-     height: 50px;
-     align-items: center;
-     text-align: center;
+    width: 224px;
+    height: 54px; 
+    padding: 0px 10px;
     }
     .third-btn{
       width: 300px;
       height: 50px;
       right: 200px;
     }
-    .profile-pic{
-      width: 100%;
-    }
     .banner-contant{
-      flex-direction: row;
+      
     }
     .banner-title{
     
@@ -803,12 +792,5 @@ justify-content: center;
       flex-direction: column;
       margin-top: 10px;
       gap: 5px;
-      
     }
-    /* start-second-section */
-    
-    }
-   
-    
-    
-
+  }
