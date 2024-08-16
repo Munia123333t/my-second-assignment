@@ -80,7 +80,8 @@ padding: 3px 3px;
   font-size: 2rem;
 }
 header{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180.00deg, rgb(17, 17, 17) 100%
+  0,rgba(119, 119, 119, 0) 100%);
   max-width: 1440px;
   max-height: 750px;
 
@@ -89,138 +90,122 @@ body{
     background-color: black;
 }
 /* banner-styles */
- .banner-greetings{
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 8.78rem;
-   font-weight: 900;
- }
- .banner{
-    display: flex;
-    justify-content: space-between;
-     margin: 50px 130px;
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 130px;
   
-  }
-  .banner-contant{
-    max-width: 580px;
-    
-  }
-  
-  .banner-title{
-    font-weight: 900;
-    font-size: 4.87rem;
-    color: rgb(255, 255, 255);
-    padding: 0px;
-    margin: 28px 0px;
-    
-  }
-  .banner-description{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 0px;
-    margin: 28px 0px;
-  }
-  .second-btn{
-    background-color:rgb(230, 83, 60) ;
-    color: rgb(255, 255, 255);
-    font-size: 1.13rem;
-    font-weight: 400;
-    line-height: 22px;
-    border-radius: 42px;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 40px 16px 40px;
-    margin: 0px 10px;
-  }
-  .third-btn{
-    font-size: 1.13rem;
-    font-weight: 400;
-    line-height: 22px;
-    box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 42px;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 40px 16px 40px;
-    margin: 0px 14px;
-    background-color:rgba(119, 119, 119, 0);
-    color:  rgb(255, 255, 255);
    
-  }
-  /* badge-related-work */
-  
-  .profile-pic{
-   width: 349px;
-  }   
+}
 
-  #badge{
-    /* position: absolute; */
-    width: 198px;
-    height: 98px;
-    /* left: 1100px;
-    top: 350px; */  
-    margin: 120px 20px 30px 1050px;  
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1); 
-    backdrop-filter: blur(20px);
-  }
-  .number{
-   font-weight: 800;
-   font-size: 40px;
-   height: 40px;
-   color: rgb(255, 255, 255); 
-   margin-left: -50px ;
-  }
-  .free-vdo{
-    font-weight: 400;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.65); 
-    margin-right: 40px;
-  }
-  #second-badge{
-   
-    /* position: absolute; */
-    width: 176px;
-    height: 96px;
-    margin: 400px 20px 30px 750px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-  
-  }
-  .ellipse{
-    /* position: absolute; */
-  width: 30px;
-  height: 30px;
-  left: 30px;
-  bottom: 28px;
-  transform: translate(-50%,-50%);
-  border-radius: 50%;
-  background-color: rgb(230, 83, 60);
-  }
-  .number2{
+.banner-title{
+  font-weight: 900;
+  font-size: 4.87rem;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  margin: 28px 0px;
+  line-height: 120%;  
+}
+.banner-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0px;
+  margin: 28px 0px;
+}
+.second-btn{
+  background-color:rgb(230, 83, 60) ;
+  color: rgb(255, 255, 255);
+  font-size: 1.13rem;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 42px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px 16px 40px;
+  margin: 0px 10px;
+}
+.third-btn{
+  font-size: 1.13rem;
+  font-weight: 400;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px 16px 40px;
+  margin: 0px 14px;
+  background-color:rgba(119, 119, 119, 0);
+  color:  rgb(255, 255, 255);
+ 
+}
+/* badge-related-work */
+#badge{
+  position: absolute;
+width: 150px;
+height: 98px;
+left: 1100px;
+top: 350px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+background: rgba(255, 255, 255, 0.1);
+
+}
+.number{
+ font-weight: 800;
+ font-size: 2.5rem;
+ height: 40px;
+ color: rgb(255, 255, 255);
+}
+.free-vdo{
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+#second-badge{
+ 
+ position: absolute;
+width: 170px;
+height: 96px;
+left: 780px;
+top: 630px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+
+}
+.ellipse{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 30px;
+bottom: 28px;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+background-color: rgb(230, 83, 60);
+}
+.number2{
   color: rgb(250, 250, 249);
   font-size: 1.5rem;
-  font-weight: 900;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.tutorial{
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 24px;
-  letter-spacing: 0.3px;
-  text-align: left;
-  }
-  .tutorial{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: rgba(239, 237, 232, 0.65); 
-    margin-left: 38px;
-  }
+letter-spacing: 0.5px;
+text-align: left;
+color: rgba(239, 237, 232, 0.65);
+}
   main{
     max-width: 1440px;
     margin: 0 auto;
@@ -300,29 +285,36 @@ body{
   }
   /* third-section-related-work */
   .third-section{
-  width: 1300px;
-  height: 371px;  
-  margin-top: 100px;
-  margin-left: 90px;
-  margin-right: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px;
-  border-radius: 18px;  
-  background: rgb(34, 34, 34);  
-
+   
+    width: 1020px;
+    height: 371px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 0px;
+   
+    background: rgb(185, 185, 185);
+    border-radius: 18px;
+   
+  
+  background: rgb(34, 34, 34);
   }
   .extra-run{
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
   font-weight: 900;
   margin: 14px 0px;
+  
+  
    
   }
   .belive-fitness{
     color: rgba(255, 255, 255, 0.5);
-    /* position: static; */
+    position: static;
     width: 400px;
   height: 150px;
   margin: 0 auto;
@@ -330,7 +322,7 @@ body{
    
   }
   .join-btn{
-    /* position: static; */
+    position: static;
   width: 180px;
   height: 60px;
   border-radius: 42px;
@@ -357,8 +349,7 @@ body{
   .card-img{
     width: 350px;
     height: 310px;
-    margin-left: 300px;      
-
+    margin-left: 40px;    
   }
   .card-img img{
     width: 350px;
